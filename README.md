@@ -69,6 +69,13 @@ boundary_f1 = SI_boundary_F1(predicted_depth, target_depth)
 boundary_recall = SI_boundary_Recall(predicted_depth, target_mask)
 ```
 
+### Running the Script
+
+1. Open your terminal or command prompt.
+2. Navigate to the `src` directory:
+   ```bash
+   cd src
+   python3 helper.py
 ## Citation
 
 If you find our work useful, please cite the following paper:
